@@ -9,7 +9,7 @@ React + Tailwind CSS
 
 ## Backend
 
-BunJS + Elysia
+Bun + Elysia
 
 ### Start server
 `./be`
