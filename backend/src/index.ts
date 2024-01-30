@@ -4,7 +4,7 @@ const port = Bun.env.PORT || 3000;
 
 const app = new Elysia()
   .get("/", () => "Hello Elysia")
-  .get("/hello", ({ params: { name } }) => `Hello ${name}`)
+  .get("/hello/:name", ({ params: { name } }) => `Hello ${name} from backend`)
   .listen(port);
 
 console.log(
