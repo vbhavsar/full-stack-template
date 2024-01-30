@@ -5,13 +5,13 @@
 React + Tailwind CSS
 
 ### Start server
-'./fe'
+`./fe`
 
 ## Backend
 
 BunJS + Elysia
 
 ### Start server
-'./be'
+`./be`
 
 
